@@ -1,0 +1,72 @@
+.hero {
+  background: var(--app-primary);
+  min-height: 850px;
+  width: 100%;
+}
+
+.hero-image__large {
+  top: 1;
+  position: absolute;
+  width: 960px;
+  padding-right: 15px;
+}
+
+.download-link {
+  width: 100%
+}
+
+.download-link a img{
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.hero .hero-text__wrapper .u-font-size-h3-md{
+  color: var(--app-font__light);
+  font-size: 1.75rem;
+  font-family: "helveticaNeue", Arial, Helvetica, sans-serif;
+  line-height: normal;
+}
+
+.hero-font-maison {
+  color: var(--white);
+  font-family: "maisonNeueBold";
+  font-size: 3rem;
+  line-height: normal;
+
+}
+
+.image-container {
+  position: relative;
+}
+
+
+@media only screen and (max-width: 1680px) {
+  .hero-image__large {
+    top: 73px;
+    position: absolute;
+    width: 145%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .hero-image__large {
+    top: 90px;
+    width: 130%;
+  }
+}
+
+
+/* @media only screen and (max-width: 1440px) {
+  .hero-image__large {
+    top: 90px;
+    width: 140%;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  .hero .m-t-150 {
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=hero.css.map */

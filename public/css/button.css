@@ -1,0 +1,73 @@
+/* @import '/css/_variables.css'; */
+
+.btn {
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  /* float: right; */
+}
+
+.outline {
+  background:  #fff;;
+  color: #006fcf;
+  border: 1px solid #006fcf;
+}
+
+.outline:hover {
+  transition: all .3s ease-in-out;
+  background-color: rgb(226, 226, 226);
+}
+
+.primary {
+  background:  var(--app-secondary);
+  color: #fff;
+}
+
+.primary:hover {
+  background:  var(--app-secondary__light);
+}
+
+.cta {
+  position: absolute;
+  width: 260px;
+  /* height: 30px; */
+  line-height: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  cursor: pointer;
+}
+
+.lg {
+  width: 180px;
+  height: 50px;
+}
+
+.cta:hover{
+  background: var(--app-primary-light);
+}
+
+.default {
+  background: var(--app-default);
+  color: var(--app-white);
+}
+
+.default:hover {
+  background: var(--app-default-light);
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=button.css.map */

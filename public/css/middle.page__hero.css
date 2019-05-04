@@ -1,0 +1,55 @@
+.middle-page__hero {
+    background: url("../images/bg/about-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover-md {
+    min-height: 640px;
+}
+
+.middle-page__hero .hero-text__wrapper {
+    color: var(--white)
+}
+
+.middle-page__hero .hero-text__wrapper .hero-text {
+    padding-top: 250px;
+}
+
+.container-float {
+    margin-top: -192px;
+}
+
+.container-float h2 {
+    font-size: 1.75rem;
+    font-family: "maisonNeueBold";
+}
+
+.container-float__content {
+    width: 94%;
+    background: var(--white);
+    border-radius: 5px;
+    padding: 32px;
+    box-shadow: 0 8px 16px 0 rgba(34,50,84,.06), inset 0 0 0 1px rgba(112,123,140,.15);
+}
+
+.u-font-light {
+    font-weight: 300;
+}
+
+.u-font-size-h2 {
+    font-size: 2.25rem;
+    line-height: normal;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) {
+    .middle-page__hero .hero-text__wrapper .hero-text {
+        padding-top: 50px;
+    }
+
+    .container-float {
+        margin-top: -320px;
+    }
+}
+/*# sourceMappingURL=middle.page__hero.css.map */

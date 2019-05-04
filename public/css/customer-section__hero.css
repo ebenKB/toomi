@@ -1,0 +1,35 @@
+.customer-section__hero {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background: url('../images/bg/customer-support-hero.jpg');    
+}
+
+.customer-section__hero .hero-text__wrapper {
+    width: 100%
+}
+
+.customer-section__hero .hero-text__wrapper .hero-text {
+    width: 30%;
+    margin-left: 55.5%;
+    padding-top: 15%;
+    color: var(--white);
+}
+
+@media only screen and (max-width: 768px) {
+    .customer-section__hero .hero-text__wrapper .hero-text {
+        width: 90%;
+        margin: auto;
+        padding-top: 40%;
+    }
+
+    .customer-section__hero {
+        background-position: 43% 100% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    .customer-section__hero .hero-text__wrapper .hero-text {
+        padding-top: 15%;
+    }
+}
+/*# sourceMappingURL=customer-section__hero.css.map */

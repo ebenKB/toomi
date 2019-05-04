@@ -1,0 +1,85 @@
+
+.menu-section {
+  position: fixed;
+  width: 100vw;
+  background: var(--app-primary);
+  z-index: 10;
+}
+
+.menu-section a {
+  color: var(--white);
+}
+
+.header-logo__container {
+  width: 100%;
+}
+
+.menu-heading__items {
+  padding: 0;
+}
+
+.menu-heading__items ul,
+.menu-heading__items ul li {
+  display: inline;
+}
+
+.menu-link__item:hover{
+  background: var(--app-link__hover);
+}
+
+.menu-link__items {
+  padding: 10px;
+  /* margin-left: 240px; */
+}
+
+.menu-link__wrapper {
+  padding: 10px;
+  margin-left: 35%;
+}
+
+.menu-heading__items .menu-link__item {
+  padding: 35px 20px;
+  width: auto;
+}
+
+.header-position__fix {
+  height: 55px;
+}
+
+.header-logo {
+  width: 90%;
+}
+
+
+.header-logo .img-lg {
+  width: 120px;
+  margin: auto;
+}
+
+
+/* hide the hamburger for big screens */
+@media only screen and (max-width:768px) {
+  /* .menu-container,
+  .menu-heading__items ul,
+  .menu-heading__items ul li {
+    display: none;
+  } */
+  /* set the menue links to stack on top of each other */
+  .menu-link__item {
+    display: block;
+  }
+
+  .heading__items ul li {
+    display: block;
+  }
+
+  .menu-heading__items .menu-link__item {
+    padding: 10px 25px;
+    width: auto;
+  }
+
+  .menu-heading__items ul, .menu-heading__items ul li {
+    display: block;
+  }
+}
+/*# sourceMappingURL=header.css.map */

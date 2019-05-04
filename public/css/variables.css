@@ -1,0 +1,12 @@
+:root {
+  /* --app-primary:  #14233c; */
+  --app-primary:  #0b0b08;
+  --app-secondary: #00a0d6;
+  --app-secondary__light: rgba(0, 160, 214, 0.6);
+  --app-link__hover:rgba(170,178,192,.05);
+  --app-black: #000;
+  --app-dark: #14233c;
+  --app-font__light: #aab2c0;
+  --white: #fff;
+}
+/*# sourceMappingURL=variables.css.map */

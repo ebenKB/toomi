@@ -1,0 +1,394 @@
+@import '../css/variables.css';
+@import '../css/util.css';
+@import '../css/grid.css';
+@import '../css/button.css';
+@import '../css/header.css';
+@import '../css/hero.css';
+@import '../css/footer.css';
+@import '../css/animation.css';
+@import '../css/menu.css';
+@import '../css/image-util.css';
+@import '../css/middle.page__hero.css';
+@import '../css/customer-section__hero.css';
+@import '../css/hamburger.css';
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "maisonNeue", "helveticaNeue";
+  font-size: 1em;
+  color: var(--app-dark);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* include custom fonts */
+@font-face {
+  font-family: "maisonNeueBold";
+  src: url("../fonts/maisonneueweb-bold-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "maisonNeue";
+  src: url("../fonts/maisonneueweb-book-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "maisonNeueMono";
+  src: url("../fonts/maisonneueweb-mono.woff") format("woff");
+}
+
+@font-face {
+  font-family: "helveticaNeue";
+  src: url("../fonts/helvetica-neue-regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url("../fonts/AvenirNextLTPro-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AvenirNextBold";
+  src: url("../fonts/AvenirNextLTPro-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AvenirNextPro";
+  src: url("../fonts/AvenirNextLTPro-It.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-family: "AvenirNextBold";
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+.ul-reset-all,
+.ul-reset-all li {
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  -webkit-padding-before: 0;
+  padding-block-start: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+a {
+  color: var(--app-primary);
+  font-weight: 700;
+}
+
+a, ul li {
+  text-decoration: none;
+  background: transparent;
+}
+
+.u-color-grey-blue-dark {
+  color: #4d5870;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.container-large {
+  width: 82%;
+  margin-left: 9%;
+  margin-right: 9%;
+  padding: 0 64px;
+}
+
+.section-container {
+  margin: 64px auto 0;
+  padding: 64px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.section-container__no-margin {
+  /* margin: 64px auto 0; */
+  padding: 64px 0;
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 100%; */
+}
+
+.synapse-build__heading {
+  font-size: 2.25rem;
+  line-height: normal;
+  font-family: Avenir Next,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0;
+}
+
+.synapse-build__heading+* {
+  font-size: 1.125rem;
+  line-height: 28px;
+  margin-top: 24px;
+  width: 85%;
+}
+
+.synapse-build__cta-button {
+  font-size: 16px;
+  font-size: 1rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: rgba(0,160,214,.1);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #00a0d6;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 25px;
+  min-height: 43px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.synapse-build__cta-button:hover {
+  background-color: rgba(0,141,189,.1);
+  border-color: transparent;
+  color: #00a0d6;
+  text-decoration: none;
+}
+
+.synapse-build__image {
+  margin-left: calc(8.33333% + 32px / 2);
+}
+
+/* .img-content__caption {
+  width: 80%;
+  padding-left: 90px;
+} */
+
+.img-content__caption-wide {
+  width: calc(100% - 90px);
+  padding-left: 90px;
+  padding-bottom: 160px;
+}
+
+.u-color-white {
+  color: var(--white);
+}
+
+.synapse-build__section {
+  background-color: #fff;
+  color: #14233c;
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+}
+
+.synapse-app__section {
+  background-color: #f7f7f7;
+  color: #14233c;
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+}
+
+.synapse-app__cta-message {
+  font-size: 2.25rem;
+  line-height: normal;
+  font-weight: 300;
+  font-family: "MaisonNeue";
+}
+
+
+.synapse-app__cta {
+  width: 650px;
+  align-content: center;
+  text-align: center;
+  margin: auto auto;
+}
+
+.synapse-app__cta p{
+  font-size: 1.125rem;
+}
+
+.banner-link__wrapper {
+  background: var(--app-secondary);
+  padding-top: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.banner-link__wrapper .banner-link {
+  color: var(--white)
+}
+
+.img-text__caption * {
+  display: inline;
+  float: left;
+}
+
+.grp-icons img {
+  padding: 5px
+}
+
+@media only screen and (min-width:768px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+/* set font size for bigger devices  */
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  p {
+    /* font-size: 18px; */
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+
+  .container-large {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 0 64px;
+  }
+
+  .container-float__content {
+    height: 240px;
+    width: 94%;
+    background: var(--white);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 8px 16px 0 rgba(34,50,84,.06), inset 0 0 0 1px rgba(112,123,140,.15);
+  }
+
+  .card-heading {
+    font-size: 1.7rem;
+  }
+}
+
+/* for medium screens */
+@media only screen and (max-width: 768px) {
+  .desktop-only {
+      display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+
+  .banner-link {
+    margin-top: 50px;
+  }
+
+  .container-large {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0 10px;
+  }
+
+  .synapse-build__image {
+    margin-left: 0;
+  }
+
+  .synapse-app__cta {
+    width: 98%;
+  }
+
+  .img-content__caption {
+    width: calc(100% - 20px );
+    padding: 10px;
+  }
+
+  .hero-font-maison {
+    font-size: 1.875rem;
+  }
+
+  h1 {
+    font-size: 1.875rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .container-float .img-fit {
+    width: 80px;
+    margin: auto;
+    padding-top: 20px
+  }
+
+  .container-float__content {
+    width: 100%;
+  }
+
+  .hero .hero-text__wrapper .u-font-size-h3-md {
+    font-size: 1.0rem;
+  }
+  
+  .section-container__no-margin .m-r-80 {
+    margin-right: 0;
+  }
+
+  .menu-toggle {
+    display: none;
+		/* display:block;
+		visibility: hidden; */
+  }
+  
+  .money-section .m-t-150 {
+    margin-top: 30px;
+  }
+
+  .mob-center  {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+html {
+    font-size: 16px;
+    font-size: 1.0rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
