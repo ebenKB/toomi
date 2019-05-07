@@ -56,6 +56,26 @@
   margin: auto;
 }
 
+/* very large screens  */
+@media only screen and (min-width: 1366px) {
+  .menu-link__wrapper {
+    margin-left: 50%;
+  }
+}
+
+/* large screens */
+@media only screen and (max-width: 1366) and (min-width: 980px) {
+  .menu-link__wrapper {
+    margin-left: 35%;
+  }
+}
+
+/* medium screens */
+@media only screen and (max-width: 980px) and (min-width: 768px) {
+  .menu-link__wrapper {
+    margin-left: 25%;
+  }
+}
 
 /* hide the hamburger for big screens */
 @media only screen and (max-width:768px) {
