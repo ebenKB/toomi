@@ -13,9 +13,13 @@
 }
 
 .middle-page__hero .hero-text__wrapper .hero-text {
+    width: 70%;
     padding-top: 250px;
 }
 
+.u-font__faint {
+    color: #b7b8b9;
+}
 .container-float {
     margin-top: -192px;
 }
@@ -41,6 +45,10 @@
     font-size: 2.25rem;
     line-height: normal;
     font-weight: 300;
+}
+
+.u-font-size-h3-md {
+    font-size: 1.75rem;
 }
 
 @media only screen and (max-width: 768px) {

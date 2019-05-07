@@ -11,6 +11,9 @@
 @import '../css/middle.page__hero.css';
 @import '../css/customer-section__hero.css';
 @import '../css/hamburger.css';
+@import '../css/privacy.css';
+@import '../css/about.css';
+@import '../css/card.css';
 
 body {
   padding: 0;
@@ -73,8 +76,17 @@ h6 {
   margin: 0;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 h2 {
   font-size: 2.25rem;
+  font-family: "AvenirNextBold";
+}
+
+h3 {
+  font-size: 1.75rem;
   font-family: "AvenirNextBold";
 }
 
@@ -117,8 +129,20 @@ a, ul li {
   text-align: center;
 }
 
+.bdr-top__faint {
+  border-top: 1px solid #eee;
+}
+
 .hide {
   display: none;
+}
+
+.u-font-maison {
+  font-family: "maisonNeueBold", Arial, Helvetica, sans-serif;
+} 
+
+.col-md {
+  width: 80%;
 }
 
 .container {
@@ -258,8 +282,9 @@ a, ul li {
 }
 
 .img-text__caption * {
-  display: inline;
-  float: left;
+  display: block;
+  /* display: inline;
+  float: left; */
 }
 
 .grp-icons img {
@@ -365,7 +390,7 @@ a, ul li {
   .hero .hero-text__wrapper .u-font-size-h3-md {
     font-size: 1.0rem;
   }
-  
+
   .section-container__no-margin .m-r-80 {
     margin-right: 0;
   }
@@ -375,7 +400,7 @@ a, ul li {
 		/* display:block;
 		visibility: hidden; */
   }
-  
+
   .money-section .m-t-150 {
     margin-top: 30px;
   }
