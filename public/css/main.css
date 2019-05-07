@@ -282,9 +282,9 @@ a, ul li {
 }
 
 .img-text__caption * {
-  display: block;
-  /* display: inline;
-  float: left; */
+  /* display: block; */
+  display: inline;
+  float: left;
 }
 
 .grp-icons img {
@@ -401,7 +401,7 @@ a, ul li {
 		visibility: hidden; */
   }
 
-  .money-section .m-t-150 {
+  .getting-started .m-t-150 {
     margin-top: 30px;
   }
 
