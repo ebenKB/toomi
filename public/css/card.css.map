@@ -1,0 +1,1 @@
+{"version":3,"sources":["card.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mBAAmB;IACnB,mBAAmB;AACvB","file":"card.css","sourcesContent":[".card {\n    padding: 40px;\n    border-radius: 10px;\n    background: #f7f7f7;\n}"]}

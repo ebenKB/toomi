@@ -1,0 +1,16 @@
+.c-blog-article__title {
+    font-size: 1.125rem;
+    clear: both;
+    width: 100%;
+}
+
+article header {
+    font-weight: 300;
+    font-size: 14px;
+    color: #aab2c0;
+}
+
+.c-blog-article__excerpt {
+    font-weight: 300;
+}
+/*# sourceMappingURL=about.css.map */

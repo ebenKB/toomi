@@ -1,0 +1,135 @@
+/* .privacy-grid {
+  grid-gap: 10px;
+} */
+
+.privacy-hero__section {
+  background-color: #f7f7f7;
+  color: #14233c;
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.privacy__cta-message {
+  font-size: 3rem;
+  line-height: normal;
+  font-weight: 700;
+  font-family: "MaisonNeue";
+}
+
+.privacy__cta {
+  align-content: center;
+  text-align: center;
+  margin: auto 0;
+  font-size: 1.125rem;
+}
+
+.privacy__cta p {
+  margin: 0
+}
+
+.grid {
+ display: relative;
+}
+
+.privacy-version__link {
+  font-size: 1.125rem;
+  line-height: 28px;
+  margin-right: 5px;
+  color: #00a0d6;
+}
+
+.privacy-toc {
+  border-right: 1px solid #eee;
+}
+
+.privacy-toc__heading {
+  font-size: .875rem;
+  color: inherit;
+  cursor: auto;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  transition: padding .2s ease-out;
+  margin: 0 auto;
+  padding: 10px 16px;
+}
+
+.privacy-toc__header {
+  color: inherit;
+  padding: 0 32px 16px;
+  text-align: left;
+  cursor: auto;
+  display: inline-block;
+  font-family: 'MaisonNeue';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.privacy-toc__list {
+  padding-left: 64px;
+  list-style-position: outside;
+  padding: 0 0 16px 50px;
+}
+
+.privacy-toc__list-item {
+  color: #00a0d6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 0;
+  padding: 4px 16px;
+
+  padding-left: 0;
+  text-align: left;
+}
+
+.privacy-toc__list-item a {
+  color: #00a0d6;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.privacy-toc__list-item--active,
+.privacy-toc__list-item--active a {
+  font-weight: 700;
+}
+
+.privacy-content__container {
+  margin: 0 auto 0 0;
+  max-width: 805px;
+  padding: 64px 32px;
+  text-align: left;
+}
+
+.privacy-content__heading {
+  font-size: 1.75rem;
+  line-height: normal;
+  font-family: Avenir Next,HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+  /* margin: 0; */
+}
+
+.privacy-content__paragraph {
+  font-size: 1.125rem;
+  line-height: 28px;
+  /* margin-top: 24px; */
+  margin-bottom: 0;
+}
+
+
+.privacy-content__paragraph a {
+  color: #00a0d6;
+}
+
+
+.privacy-content__ul-item {
+  list-style-type: disc;
+}
+
+*+.privacy-content__ul {
+  margin-top: 32px;
+}
+/*# sourceMappingURL=privacy.css.map */
