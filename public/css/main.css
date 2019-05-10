@@ -282,9 +282,13 @@ a, ul li {
 }
 
 .img-text__caption * {
-  /* display: block; */
   display: inline;
   float: left;
+}
+
+
+.img-text__caption-block * {
+  display: block
 }
 
 .grp-icons img {
