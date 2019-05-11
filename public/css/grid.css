@@ -199,6 +199,27 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
 }
+@media only screen and (max-width: 360px) {
+  .equal-columns__2,
+.equal-columns__3,
+.equal-columns__4,
+.equal-columns__5,
+.equal-columns__6,
+.equal-columns__seven,
+.equal-columns__8,
+.equal-columns__9,
+.equal-columns__10,
+.equal-columns__11,
+.equal-columns__12 {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row-gap: 20px;
+  }
+
+  .grid-auto__columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+}
 
 /*# sourceMappingURL=grid.css.map */
 

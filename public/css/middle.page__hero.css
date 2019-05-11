@@ -53,7 +53,8 @@
 
 @media only screen and (max-width: 768px) {
     .middle-page__hero .hero-text__wrapper .hero-text {
-        padding-top: 50px;
+        width: 100%;
+        padding-top: 100px;
     }
 
     .container-float {

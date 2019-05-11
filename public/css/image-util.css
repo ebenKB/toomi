@@ -73,6 +73,11 @@
 @media only screen and (max-width: 768px){
     .img-xxl {
         width: 150px;
+        margin: auto;
+    }
+
+    .img-xxsm {
+        margin: auto;
     }
 }
 /*# sourceMappingURL=image-util.css.map */

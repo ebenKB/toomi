@@ -79,11 +79,10 @@
 
 /* hide the hamburger for big screens */
 @media only screen and (max-width:768px) {
-  /* .menu-container,
-  .menu-heading__items ul,
-  .menu-heading__items ul li {
-    display: none;
-  } */
+  .menu-link__wrapper {
+    margin: auto;
+}
+
   /* set the menue links to stack on top of each other */
   .menu-link__item {
     display: block;

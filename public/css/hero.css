@@ -67,6 +67,18 @@
   .hero .m-t-150 {
     margin-top: 50px;
   }
+
+  .hero .m-t-120 {
+    margin-top: 20px;
+  }
+
+  .hero .m-t-200 {
+    margin-top: 150px;
+  }
+  
+  .hero-text__wrapper .m-t-80 {
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=hero.css.map */
