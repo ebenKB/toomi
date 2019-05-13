@@ -64,6 +64,10 @@
 } */
 
 @media only screen and (max-width: 768px) {
+  .hero {
+    min-height: 700px;
+}
+
   .hero .m-t-150 {
     margin-top: 50px;
   }
@@ -72,8 +76,13 @@
     margin-top: 20px;
   }
 
+  .hero .image-container .m-t-80 {
+    margin-top: 40px;
+  }
+
   .hero .m-t-200 {
-    margin-top: 150px;
+    /* margin-top: 150px; */
+    margin-top: 20px;
   }
   
   .hero-text__wrapper .m-t-80 {

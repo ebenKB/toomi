@@ -12,6 +12,10 @@
     width: 40px;
 }
 
+.img-xxsm__custom {
+    width: 40px;
+}
+
 .img-sm {
     width: 25%;
 }
@@ -79,5 +83,11 @@
     .img-xxsm {
         margin: auto;
     }
+
+    .img-xxsm__custom {
+        margin-left: 0;
+        margin-right: 10px;
+    }
 }
+
 /*# sourceMappingURL=image-util.css.map */

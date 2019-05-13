@@ -115,6 +115,19 @@
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
 }
 
+.equal-columns__2-reverse {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "left right";
+}
+
+.right {
+  grid-area: right;
+}
+
+.left {
+  grid-area: left;
+}
+
 .grid-auto__columns {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
@@ -197,6 +210,11 @@
   .grid-auto__columns {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+
+  .equal-columns__2-reverse {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-areas: "right" "left";
   }
 }
 @media only screen and (max-width: 360px) {
