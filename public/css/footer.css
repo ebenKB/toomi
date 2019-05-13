@@ -167,6 +167,7 @@ footer ul li {
         align-content: center;
         flex-wrap: nowrap;
         left: 0;
+        padding-right: 50px;
     }
 
     .synapse-footer__social-link {
@@ -178,6 +179,10 @@ footer ul li {
         justify-content: center;
         margin: 0 15px 0 0;
         width: 40px;
+    }
+
+    .synapse-footer__social-body {
+        margin: 0 25%;
     }
 }
 
