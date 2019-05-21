@@ -1,0 +1,13 @@
+.big-hero__center {
+    background: var(--app-primary);
+    color: #fff;
+}
+
+.alt-opaque {
+    background: #f7f7f7;
+}
+
+.padded_40 {
+    padding: 40px 0;
+}
+/*# sourceMappingURL=big-hero__center.css.map */

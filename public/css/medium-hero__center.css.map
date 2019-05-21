@@ -1,0 +1,1 @@
+{"version":3,"sources":["medium-hero__center.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB","file":"medium-hero__center.css","sourcesContent":[".big-hero__center {\n    background: red;\n}"]}

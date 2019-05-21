@@ -1,0 +1,23 @@
+.cookie {
+    background: #fff;
+    width: 590px;
+    padding: 5px 10px;
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+    left: 30%;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(34,50,84,.06);
+
+}
+
+.cookie-content {
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cookie-content a {
+    color: var(--app-secondary);
+}
+/*# sourceMappingURL=cookie.css.map */

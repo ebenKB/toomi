@@ -1,0 +1,1 @@
+{"version":3,"sources":["big-hero__center.css"],"names":[],"mappings":"AAAA;IACI,8BAA8B;IAC9B,WAAW;AACf;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,eAAe;AACnB","file":"big-hero__center.css","sourcesContent":[".big-hero__center {\n    background: var(--app-primary);\n    color: #fff;\n}\n\n.alt-opaque {\n    background: #f7f7f7;\n}\n\n.padded_40 {\n    padding: 40px 0;\n}"]}
