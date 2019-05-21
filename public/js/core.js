@@ -1,4 +1,6 @@
 $("document").ready(() => {
+  initCookie();
+
   scroll('learnMore', 'gettingStarted', 800);
 // scroll positions
 let last_known_scroll_position = 0;
@@ -25,7 +27,17 @@ let current_pos = last_known_scroll_position;
       }
     });
   });
+
+  document.getElementById('acceptCookie').addEventListener('click', () => {
+    setCookie();
+  });
 });
+
+
+
+// button.addEventListener('click', event => {
+//   button.innerHTML = `Click count: ${event.detail}`;
+// });
 
 function showHeader() {
   $('#menu-section').removeClass('fadeOut');
@@ -45,4 +57,30 @@ function scroll(id, to, delay) {
       scrollTop: $('#'+to).offset().top
     }, delay)
   });
+}
+
+function initCookie() {
+  const cookie = getCookie('_has_accepted_cookie')
+  console.log(cookie)
+  if(!cookie || cookie == null || cookie == 'undefined') {
+    // show accept cookie form.
+    showCookie();
+  }
+}
+
+function setCookie() {
+  // add a cookie to the browser
+  document.cookie= "_has_accepted_cookie=true;"+"Expires="+ Date.now()+36000;
+
+  // hide the cookie form
+  $('#cookieWrapper').addClass('hide');
+};
+
+function showCookie() {
+ $('#cookieWrapper').removeClass('hide')
+}
+
+function getCookie(name) {
+  var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+  return v ? v[2] : null;
 }

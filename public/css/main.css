@@ -14,6 +14,8 @@
 @import '../css/privacy.css';
 @import '../css/about.css';
 @import '../css/card.css';
+@import '../css/big-hero__center.css';
+@import '../css/cookie.css';
 
 body {
   padding: 0;
@@ -94,6 +96,10 @@ h4 {
   font-size: 1.25rem;
 }
 
+.u-big__p p{
+  font-size: 1.125rem;
+}
+
 ul li {
   list-style: none;
 }
@@ -143,6 +149,20 @@ a, ul li {
 
 .col-md {
   width: 80%;
+}
+
+.col-md__75 {
+  max-width: 75%;
+}
+
+.col-1-4 {
+  width: 60%;
+  padding: 0 12px;
+  margin: auto;
+}
+
+.md-ht__640 {
+  min-height: 640px;
 }
 
 .container {
@@ -482,6 +502,10 @@ a, ul li {
 
   h3 {
     font-size: 1.3rem;
+  }
+
+  .img-text__caption * {
+    margin-top: 10px;
   }
 }
 

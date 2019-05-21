@@ -30,6 +30,10 @@
   background:  var(--app-secondary__light);
 }
 
+.small {
+  padding: 10px 20px;
+}
+
 .cta {
   position: absolute;
   width: 260px;
