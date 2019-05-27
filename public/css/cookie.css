@@ -1,14 +1,13 @@
 .cookie {
     background: #fff;
-    width: 590px;
+    min-width: 590px;
     padding: 5px 10px;
     position: fixed;
     z-index: 100;
-    bottom: 10px;
+    bottom: 4px;
     left: 30%;
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(34,50,84,.06);
-
 }
 
 .cookie-content {
@@ -19,5 +18,29 @@
 
 .cookie-content a {
     color: var(--app-secondary);
+}
+
+@media only screen and (min-width: 768px) {
+    .cookie-content button {
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .cookie {
+        min-width: 100%;
+        left: 0;
+        display: block;
+        border-radius: 0;
+        bottom: 10px;
+    }
+
+    .cookie-content {
+        display: block;
+        text-align: center;
+    }
+
+    .cookie-content button {
+        margin-bottom: 10px;
+    }
 }
 /*# sourceMappingURL=cookie.css.map */
