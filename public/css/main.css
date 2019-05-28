@@ -16,6 +16,7 @@
 @import '../css/card.css';
 @import '../css/big-hero__center.css';
 @import '../css/cookie.css';
+@import '../css/partners.css';
 
 body {
   padding: 0;
@@ -506,6 +507,14 @@ a, ul li {
 
   .img-text__caption * {
     margin-top: 10px;
+  }
+
+  .col-md__75 {
+    max-width: 100%;
+  }
+
+  .col-1-4 {
+    width: 100%;
   }
 }
 

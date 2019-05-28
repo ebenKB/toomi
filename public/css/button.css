@@ -69,10 +69,18 @@
   background: var(--app-default-light);
 }
 
+/* medium devices */
 @media only screen and (max-width: 768px) {
   .btn {
-    width: 90%;
+    width: 40%;
     margin: auto;
   }
+}
+
+/* mobile devices */
+@media only screen and (max-width:768px) and (min-width: 360px) {
+    .btn {
+      width: 90%;
+    }
 }
 /*# sourceMappingURL=button.css.map */
