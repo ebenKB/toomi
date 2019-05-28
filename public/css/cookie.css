@@ -1,11 +1,26 @@
+.cookieWrapper {
+    position: relative;
+    width: 100%;
+    background: red;
+}
 .cookie {
-    background: #fff;
+    /* background: #fff;
     min-width: 590px;
     padding: 5px 10px;
     position: fixed;
     z-index: 100;
     bottom: 4px;
     left: 30%;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(34,50,84,.06); */
+    background: #fff;
+    width: 650px;
+    padding: 5px 10px;
+    position: fixed;
+    z-index: 100;
+    bottom: 4px;
+    left: calc((100% - (620px)) / 2);
+    right: 22.5%;
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(34,50,84,.06);
 }
@@ -20,11 +35,26 @@
     color: var(--app-secondary);
 }
 
+/* large devices */
 @media only screen and (min-width: 768px) {
     .cookie-content button {
         margin-left: 10px;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1280px)  {
+    /* .cookie {
+        left: 22%
+    } */
+}
+
+/* ipad pro  */
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .cookie {
+        left: 18%;
+    }
+} */
+/* mediumdevices */
 @media only screen and (max-width: 768px) {
     .cookie {
         min-width: 100%;
@@ -43,4 +73,5 @@
         margin-bottom: 10px;
     }
 }
+
 /*# sourceMappingURL=cookie.css.map */

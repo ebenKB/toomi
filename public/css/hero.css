@@ -56,12 +56,12 @@
 }
 
 
-/* @media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1366px) {
   .hero-image__large {
     top: 90px;
-    width: 140%;
+    width: 100%;
   }
-} */
+}
 
 @media only screen and (max-width: 768px) {
   .hero {
