@@ -194,7 +194,7 @@ a, ul li {
 }
 
 .section-container {
-  margin: 64px auto 0;
+  /* margin: 64px auto 0; */
   padding: 64px 0;
   margin-left: auto;
   margin-right: auto;
@@ -356,7 +356,7 @@ a, ul li {
   }
 
   .container-float__content {
-    height: 240px;
+    min-height: 240px;
     width: 94%;
     background: var(--white);
     border-radius: 5px;
