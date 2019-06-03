@@ -1,6 +1,7 @@
 .hero {
   background: var(--app-primary);
   min-height: 850px;
+  height: 90vh;
   width: 100%;
 }
 
@@ -20,10 +21,10 @@
   border-radius: 5px;
 }
 
-.hero .hero-text__wrapper .u-font-size-h3-md{
+.hero .hero-text__wrapper .u-font-size-h3-md {
   color: var(--app-font__light);
   font-size: 1.75rem;
-  font-family: "helveticaNeue", Arial, Helvetica, sans-serif;
+  /* font-family: "helveticaNeue", Arial, Helvetica, sans-serif; */
   line-height: normal;
 }
 
