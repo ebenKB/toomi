@@ -40,6 +40,11 @@
   position: relative;
 }
 
+@media only screen and (min-width: 1920px) {
+  .hero .container-large {
+    padding-top: 90px;
+  }
+}
 
 @media only screen and (max-width: 1680px) {
   .hero-image__large {
@@ -61,6 +66,12 @@
   .hero-image__large {
     top: 90px;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .hero-font-maison {
+    font-size: 2rem;
   }
 }
 

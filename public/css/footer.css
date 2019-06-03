@@ -184,6 +184,14 @@ footer ul li {
     .synapse-footer__social-body {
         margin: 0 25%;
     }
+
+
+    .synapse-footer__links li+li {
+        margin-top: .5px;
+    }
+    .synapse-footer__column {
+        margin-top: 10px;
+    }
 }
 
 /* for large screens */
