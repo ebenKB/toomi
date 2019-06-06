@@ -1,7 +1,8 @@
 $("document").ready(() => {
   initCookie();
 
-  scroll('learnMore', 'gettingStarted', 800);
+  scroll('learnMore', 'gettingStarted', 800, 260);
+  scroll('to-social-media', 'social-media', 1000, 0)
 // scroll positions
 let last_known_scroll_position = 0;
 let current_pos = last_known_scroll_position;
@@ -51,10 +52,11 @@ function hideHeader() {
   $('#header-fix').addClass('fadeOut');
 }
 
-function scroll(id, to, delay) {
+function scroll(id, to, delay, offset) {
+  if ($(this).data('offset') != undefined) offset = $(this).data('offset');
   $('#'+id).click(() =>{
     $('html, body').animate({
-      scrollTop: $('#'+to).offset().top
+      scrollTop: $('#'+to).offset().top - offset
     }, delay)
   });
 }
