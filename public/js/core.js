@@ -1,9 +1,17 @@
 $("document").ready(() => {
+  // initialize cookie
   initCookie();
 
+  // initialize scroll events on the scrollabel targets
   scroll('learnMore', 'gettingStarted', 800, 260);
-  scroll('to-social-media', 'social-media', 1000, 0)
-// scroll positions
+  scroll('to-social-media', 'social-media', 1000, 0);
+  scroll('to-overview', 'overview',500, 200 );
+  scroll('to-information-collection', 'information-collection', 500, 200);
+  scroll('to-log-data', 'log-data', 500, 200);
+  scroll('to-cookies', 'cookies', 500, 200);
+  scroll('to-sharing-info', 'sharing-info', 500, 200);
+  scroll('to-contacting', 'contacting', 900, 0);
+// set scroll positions
 let last_known_scroll_position = 0;
 let current_pos = last_known_scroll_position;
 
@@ -34,8 +42,6 @@ let current_pos = last_known_scroll_position;
   });
 });
 
-
-
 // button.addEventListener('click', event => {
 //   button.innerHTML = `Click count: ${event.detail}`;
 // });
@@ -52,6 +58,7 @@ function hideHeader() {
   $('#header-fix').addClass('fadeOut');
 }
 
+// listen to scroll events on the page
 function scroll(id, to, delay, offset) {
   if ($(this).data('offset') != undefined) offset = $(this).data('offset');
   $('#'+id).click(() =>{
