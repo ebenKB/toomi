@@ -144,4 +144,27 @@
 *+.privacy-content__ul {
   margin-top: 32px;
 }
+
+@media only screen and (max-width: 760px) {
+  .privacy-toc__content {
+    /* position: relative;
+    bottom: 0; */
+    display: none
+  }
+  .privacy-grid .p-t-64 {
+    padding-top: 0;
+  }
+
+  .privacy-content__container {
+    padding: 0 32px;
+  }
+
+  .privacy-content__paragraph {
+    font-size: 1.0rem;
+  }
+
+  .privacy-content__heading {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=privacy.css.map */
